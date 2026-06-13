@@ -4,8 +4,6 @@ A modern, serverless web application to extract images from PDFs and compile ima
 
 **Live Demo:** [https://pdf-creator-56045.web.app](https://pdf-creator-56045.web.app)
 
-![PDF Creator Demo](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop) *(Placeholder for App Screenshot)*
-
 ## Features
 
 - **Extract from PDF:** Securely extract all embedded images from any PDF document natively, and download them packaged in a ZIP archive.
