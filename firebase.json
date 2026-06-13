@@ -1,0 +1,24 @@
+{
+  "functions": {
+    "source": "functions",
+    "runtime": "python311"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/api/extract",
+        "function": "extract_jpeg_from_pdf"
+      },
+      {
+        "source": "/api/merge",
+        "function": "create_pdf_from_jpegs"
+      }
+    ]
+  }
+}
